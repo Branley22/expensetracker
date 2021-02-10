@@ -1,0 +1,25 @@
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: green;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+form {
+    font-family: sans-serif;
+    height: 20px;
+    width: 1250px;
+    text-align: center;
+}
+
+button{
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+    background-size: 1000px;
+}

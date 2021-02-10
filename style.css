@@ -25,7 +25,17 @@ button {
 }
 
 table {
-    width: 1000px;
+    width: 1250px;
     margin-top: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
+input[type="text"] {
+    width: 200px;
+}
+
+text {
+    margin-top: 200px;
+}

@@ -17,9 +17,15 @@ form {
     text-align: center;
 }
 
-button{
+button {
     background-color: green;
     color: white;
     border-radius: 30px;
     background-size: 1000px;
 }
+
+table {
+    width: 1000px;
+    margin-top: 50px;
+}
+

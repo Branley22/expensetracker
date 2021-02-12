@@ -10,6 +10,7 @@ h2 {
     text-align: center;
 }
 
+
 form {
     font-family: sans-serif;
     height: 20px;
@@ -17,11 +18,12 @@ form {
     text-align: center;
 }
 
-button {
-    background-color: green;
-    color: white;
-    border-radius: 30px;
-    background-size: 1000px;
+input[type="text"] {
+    width: 200px;
+}
+
+text {
+    margin-top: 200px;
 }
 
 table {
@@ -32,10 +34,3 @@ table {
     border-collapse: collapse;
 }
 
-input[type="text"] {
-    width: 200px;
-}
-
-text {
-    margin-top: 200px;
-}

@@ -8,36 +8,20 @@
     <body>
         <h1>The Expense Tracker</h1>
         <h2>Add a New Item to the List:</h2>
-<section class="container">
-<form id="my-form">
-<div class="msg"></div>
-<div>
-    <label for="name">Name:</label>
-    <input type="text" id="name" placeholder="Where was the expense made?">
-</div>
-<div>
-    <label for="date">Date:</label>
-    <input type="text" id="datepicker" placeholder="mm/dd/yyyy">
-</div>
-<div>
-    <label for="amount">Amount:</label>
-    <input type="text" id="amount" placeholder="$">
-</div>
-<input class="button" type="submit" value="Add expense" onclick="doMath();"/> 
-<table>
+<div id="container">
+    <div id="nameDiv" class="input">Name: <input id="name" type="text" placeholder="Where was the expense made?"></div>
+    <div class="input">Date: <input id="date" type="text" placeholder="mm/dd/yyyy"></div>
+    <div class="input">Amount: <input id="amount" type="text" placeholder="$"></div>
+    
+    <button id="entry">Add expense</button>
+    </div>
+<table id="display">
     <tr>
         <th>Name</th>
         <th>Date</th>
         <th>Amount</th>
     </tr>
 </table>
-</form>
-<ul id="expenses"></ul>
-
-<ul>
-    
-</ul>
-</section>
 <script src="tracker.js"></script>
     </body>
 </html>

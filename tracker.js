@@ -1,5 +1,5 @@
  const entry = document.getElementById("entry");
- entry.addEventListener("click", displayDetails);
+ entry.addEventListener("click",displayDetails);
 
     var row = 1;
 

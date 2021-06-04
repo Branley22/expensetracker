@@ -13,6 +13,7 @@
             alert("Fill all boxes");
             return;
         }
+     
         const display = document.getElementById("display");
 
         const newRow = display.insertRow(row);
